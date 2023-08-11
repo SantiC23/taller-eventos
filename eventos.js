@@ -1,9 +1,4 @@
-function mostrarAlerta(){
-    alert ("Hola!")
-}
-
 function CargarEvento(){
-    mostrarAlerta()
     const div = document.querySelector("div")
     
     div.addEventListener("click", SaludoDiv);
@@ -15,4 +10,4 @@ function SaludoDiv(){
 
  document.addEventListener("DOMContentLoaded", CargarEvento);
 
- 
+ //document.onclick().

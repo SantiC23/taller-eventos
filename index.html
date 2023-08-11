@@ -8,7 +8,12 @@
   </head>
   <body>
     <div style="padding: 5px; background-color: green">
-      <button onclick="mostrarAlerta()">Saludar</button>
+      <button onclick="mostrarAlerta(event)">Saludar</button>
     </div>
+    <script>function mostrarAlerta(event){
+       event.stopPropagation()
+        alert ("Hola!")
+    } 
+    </script> 
   </body>
 </html>
